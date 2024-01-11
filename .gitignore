@@ -45,3 +45,7 @@
 
 # Ignore precompiled assets for production environment
 /public/assets
+
+.DS_Store
+/app/.DS_Store
+/app/views/.DS_Store
