@@ -54,17 +54,11 @@ vendor/
 
 .gitattributes
 
-.ruby-version
+/config.ru
 
-.config.ru
+/Dockerfile
 
-.Dockerfile
-
-.Gemfile
-
-.Gemfile.lock
-
-.Rakefile
+/Rakefile
 
 
 
