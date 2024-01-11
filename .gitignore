@@ -4,9 +4,6 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Ignore bundler config.
-/.bundle
-
 # Ignore all environment files (except templates).
 /.env*
 !/.env*.erb
@@ -29,32 +26,45 @@
 !/tmp/storage/
 !/tmp/storage/.keep
 
-/public/assets
+# Ignore bundler config.
+/.bundle
 
-# Ignore master key for decrypting credentials and more.
+# Ignore the specific database config file.
+/config/database.yml
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
+
+# Ignore bundler gems.
+/vendor/bundle
+
+# Ignore application's specific configuration file
+/config/credentials.yml.enc
 /config/master.key
 
-lib/
+# Ignore files related to IDE
+/.vscode
+/.idea/
+/.rubymine*
+/.ruby-version
+/.ruby-gemset
 
-log/
+# Ignore node modules
+/node_modules
 
-public/
+# Ignore precompiled assets for production environment
+/public/assets
 
-storage/
-
-test/
-
-tmp/
-
-vendor/
-
-.dockerignore
-
-.gitattributes
-
-
-/Dockerfile
-
-
-
-
+# Ignore SQLite database files
+/db/*.sqlite3
+/db/*.sqlite3-journal
