@@ -33,3 +33,19 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+bin/
+
+lib/
+
+log/
+
+public/
+
+storage/
+
+test/
+
+tmp/
+
+vender/
