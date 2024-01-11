@@ -52,7 +52,6 @@ vendor/
 
 .gitattributes
 
-/config.ru
 
 /Dockerfile
 
