@@ -48,4 +48,23 @@ test/
 
 tmp/
 
-vender/
+vendor/
+
+.dockerignore
+
+.gitattributes
+
+.ruby-version
+
+.config.ru
+
+.Dockerfile
+
+.Gemfile
+
+.Gemfile.lock
+
+.Rakefile
+
+
+
