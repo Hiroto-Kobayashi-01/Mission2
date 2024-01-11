@@ -1,0 +1,13 @@
+<h1>登録情報の変更</h1>
+
+<%= form_with model: @post do |form| %>
+ <%= form.label :name %><%= form.text_field :name %>
+
+ <%= form.label :age %><%= form.number_field :age %>
+
+ <%= form.label :address %><%= form.text_field :address %>
+
+<br>
+ <%= form.submit "更新" %>
+</br>
+ <% end %>

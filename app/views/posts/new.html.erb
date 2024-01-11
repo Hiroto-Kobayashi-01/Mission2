@@ -1,0 +1,13 @@
+<h1>情報登録フォーム</h1>
+
+<%= form_with model: @post do |form| %>
+ <%= form.label :name %><%= form.text_field :name %>
+
+ <%= form.label :age %><%= form.number_field :age %>
+
+ <%= form.label :address %><%= form.text_field :address %>
+
+<br>
+ <%= form.submit "登録" %>
+</br>
+ <% end %>

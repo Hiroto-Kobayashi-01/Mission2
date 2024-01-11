@@ -1,0 +1,9 @@
+<h1>一覧</h1>
+
+
+ <% @posts.each do |post| %>
+ <%= link_to post.name, post_path(post) %>
+
+ <% end %>
+
+ <br><%= link_to "新規登録", new_post_path %> </br>
